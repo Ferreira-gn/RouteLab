@@ -1,0 +1,9 @@
+package org.ferreiragn.routelab
+
+class Greeting {
+    private val platform = getPlatform()
+
+    fun greet(): String {
+        return sayHello(platform.name)
+    }
+}
